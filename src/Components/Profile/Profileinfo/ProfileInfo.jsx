@@ -1,21 +1,19 @@
 import s from './Profileinfo.module.css';
-const ProfileInfo = (props) => {
+import ProfileStatus from './ProfileStatus';
+import ProfileStatusWhithHooks from './ProfileStatusWithHooks';
+const ProfileInfo = ({profile, status, updateStatus}) => {
 
-    if (!props.profile ) {
+    if (!profile ) {
         return <preloader />
     }
 
   return (
     <div>
-      <div>
-        <img src='https://ondinas.com.br/site/wp-content/themes/options/images/skins/headers/full_width/header-midnightBlue.jpg' />
-      </div>
       <div className={s.descripshionBlock}>
-       <img src = {props.profile.photos.large} />
-        ava + descripshion
+       <img src = {profile.photos.large} />
+        <ProfileStatusWhithHooks status={status} updateStatus={updateStatus} />
     </div>
     </div>
-   
   )
 }
 
