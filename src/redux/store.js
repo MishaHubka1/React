@@ -1,4 +1,4 @@
-import profileReducer from "./profile-reduser";
+/* import profileReducer from "./profile-reduser";
 import dialogsReducer from "./dialogs-reduser";
 import sidebarReducer from "./sidebar-reduser";
 
@@ -55,6 +55,6 @@ let store = {
 }
 
 
-
+ */
 
 /*export default store;*/

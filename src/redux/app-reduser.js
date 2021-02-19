@@ -1,8 +1,7 @@
-import { stopSubmit } from "redux-form";
-import { authAPI } from "../api/api";
+
 import { getAuthUserData } from "./auth-reduser";
 
-const SET_INITIALIZED_SUCCESS = 'SET_INITIALIZED_SUCCESS';
+const SET_INITIALIZED_SUCCESS = 'network/app/SET_INITIALIZED_SUCCESS';
 
 
 

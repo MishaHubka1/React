@@ -2,3 +2,13 @@
 padding: 10px;
 
 }
+
+.mainFoto {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding-left: 10px;
+}
